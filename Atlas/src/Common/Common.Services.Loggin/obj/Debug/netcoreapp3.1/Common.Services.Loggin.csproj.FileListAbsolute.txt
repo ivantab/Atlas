@@ -1,8 +1,0 @@
-D:\dev\git\Atlas\src\Common\Common.Services.Loggin\bin\Debug\netcoreapp3.1\Common.Services.Loggin.deps.json
-D:\dev\git\Atlas\src\Common\Common.Services.Loggin\bin\Debug\netcoreapp3.1\Common.Services.Loggin.dll
-D:\dev\git\Atlas\src\Common\Common.Services.Loggin\bin\Debug\netcoreapp3.1\Common.Services.Loggin.pdb
-D:\dev\git\Atlas\src\Common\Common.Services.Loggin\obj\Debug\netcoreapp3.1\Common.Services.Loggin.AssemblyInfoInputs.cache
-D:\dev\git\Atlas\src\Common\Common.Services.Loggin\obj\Debug\netcoreapp3.1\Common.Services.Loggin.AssemblyInfo.cs
-D:\dev\git\Atlas\src\Common\Common.Services.Loggin\obj\Debug\netcoreapp3.1\Common.Services.Loggin.csproj.CoreCompileInputs.cache
-D:\dev\git\Atlas\src\Common\Common.Services.Loggin\obj\Debug\netcoreapp3.1\Common.Services.Loggin.dll
-D:\dev\git\Atlas\src\Common\Common.Services.Loggin\obj\Debug\netcoreapp3.1\Common.Services.Loggin.pdb
