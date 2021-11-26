@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Excercie.DataAcces.DataBase/1.0.0": {
+        "runtime": {
+          "Excercie.DataAcces.DataBase.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Excercie.DataAcces.DataBase/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

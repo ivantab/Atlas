@@ -1,0 +1,11 @@
+D:\dev\git\Atlas\src\Services\Exercise\Exercise.Domain\bin\Debug\netcoreapp3.1\Exercise.Domain.deps.json
+D:\dev\git\Atlas\src\Services\Exercise\Exercise.Domain\bin\Debug\netcoreapp3.1\Exercise.Domain.runtimeconfig.json
+D:\dev\git\Atlas\src\Services\Exercise\Exercise.Domain\bin\Debug\netcoreapp3.1\Exercise.Domain.runtimeconfig.dev.json
+D:\dev\git\Atlas\src\Services\Exercise\Exercise.Domain\bin\Debug\netcoreapp3.1\Exercise.Domain.dll
+D:\dev\git\Atlas\src\Services\Exercise\Exercise.Domain\bin\Debug\netcoreapp3.1\Exercise.Domain.pdb
+D:\dev\git\Atlas\src\Services\Exercise\Exercise.Domain\obj\Debug\netcoreapp3.1\Exercise.Domain.AssemblyInfoInputs.cache
+D:\dev\git\Atlas\src\Services\Exercise\Exercise.Domain\obj\Debug\netcoreapp3.1\Exercise.Domain.AssemblyInfo.cs
+D:\dev\git\Atlas\src\Services\Exercise\Exercise.Domain\obj\Debug\netcoreapp3.1\Exercise.Domain.csproj.CoreCompileInputs.cache
+D:\dev\git\Atlas\src\Services\Exercise\Exercise.Domain\obj\Debug\netcoreapp3.1\Exercise.Domain.dll
+D:\dev\git\Atlas\src\Services\Exercise\Exercise.Domain\obj\Debug\netcoreapp3.1\Exercise.Domain.pdb
+D:\dev\git\Atlas\src\Services\Exercise\Exercise.Domain\obj\Debug\netcoreapp3.1\Exercise.Domain.genruntimeconfig.cache

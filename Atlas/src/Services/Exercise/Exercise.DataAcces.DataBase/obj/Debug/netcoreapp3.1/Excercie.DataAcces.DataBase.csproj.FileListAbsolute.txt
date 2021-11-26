@@ -1,0 +1,9 @@
+D:\dev\git\Atlas\src\Services\Exercise\Excercie.DataAcces.DataBase\bin\Debug\netcoreapp3.1\Excercie.DataAcces.DataBase.deps.json
+D:\dev\git\Atlas\src\Services\Exercise\Excercie.DataAcces.DataBase\bin\Debug\netcoreapp3.1\Excercie.DataAcces.DataBase.dll
+D:\dev\git\Atlas\src\Services\Exercise\Excercie.DataAcces.DataBase\bin\Debug\netcoreapp3.1\Excercie.DataAcces.DataBase.pdb
+D:\dev\git\Atlas\src\Services\Exercise\Excercie.DataAcces.DataBase\obj\Debug\netcoreapp3.1\Excercie.DataAcces.DataBase.csprojAssemblyReference.cache
+D:\dev\git\Atlas\src\Services\Exercise\Excercie.DataAcces.DataBase\obj\Debug\netcoreapp3.1\Excercie.DataAcces.DataBase.AssemblyInfoInputs.cache
+D:\dev\git\Atlas\src\Services\Exercise\Excercie.DataAcces.DataBase\obj\Debug\netcoreapp3.1\Excercie.DataAcces.DataBase.AssemblyInfo.cs
+D:\dev\git\Atlas\src\Services\Exercise\Excercie.DataAcces.DataBase\obj\Debug\netcoreapp3.1\Excercie.DataAcces.DataBase.csproj.CoreCompileInputs.cache
+D:\dev\git\Atlas\src\Services\Exercise\Excercie.DataAcces.DataBase\obj\Debug\netcoreapp3.1\Excercie.DataAcces.DataBase.dll
+D:\dev\git\Atlas\src\Services\Exercise\Excercie.DataAcces.DataBase\obj\Debug\netcoreapp3.1\Excercie.DataAcces.DataBase.pdb

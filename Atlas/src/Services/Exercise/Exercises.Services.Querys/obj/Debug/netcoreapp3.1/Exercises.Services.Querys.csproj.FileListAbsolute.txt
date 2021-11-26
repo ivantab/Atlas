@@ -1,0 +1,14 @@
+D:\dev\git\Atlas\src\Services\Exercise\Exercises.Services.Querys\obj\Debug\netcoreapp3.1\Exercises.Services.Querys.csprojAssemblyReference.cache
+D:\dev\git\Atlas\src\Services\Exercise\Exercises.Services.Querys\obj\Debug\netcoreapp3.1\Exercises.Services.Querys.AssemblyInfoInputs.cache
+D:\dev\git\Atlas\src\Services\Exercise\Exercises.Services.Querys\obj\Debug\netcoreapp3.1\Exercises.Services.Querys.AssemblyInfo.cs
+D:\dev\git\Atlas\src\Services\Exercise\Exercises.Services.Querys\obj\Debug\netcoreapp3.1\Exercises.Services.Querys.csproj.CoreCompileInputs.cache
+D:\dev\git\Atlas\src\Services\Exercise\Exercises.Services.Querys\bin\Debug\netcoreapp3.1\Exercises.Services.Querys.deps.json
+D:\dev\git\Atlas\src\Services\Exercise\Exercises.Services.Querys\bin\Debug\netcoreapp3.1\Exercises.Services.Querys.dll
+D:\dev\git\Atlas\src\Services\Exercise\Exercises.Services.Querys\bin\Debug\netcoreapp3.1\Exercises.Services.Querys.pdb
+D:\dev\git\Atlas\src\Services\Exercise\Exercises.Services.Querys\bin\Debug\netcoreapp3.1\Exercise.DataAcces.DataBase.dll
+D:\dev\git\Atlas\src\Services\Exercise\Exercises.Services.Querys\bin\Debug\netcoreapp3.1\Exercise.Domain.dll
+D:\dev\git\Atlas\src\Services\Exercise\Exercises.Services.Querys\bin\Debug\netcoreapp3.1\Exercise.DataAcces.DataBase.pdb
+D:\dev\git\Atlas\src\Services\Exercise\Exercises.Services.Querys\bin\Debug\netcoreapp3.1\Exercise.Domain.pdb
+D:\dev\git\Atlas\src\Services\Exercise\Exercises.Services.Querys\obj\Debug\netcoreapp3.1\Exercises.Services.Querys.csproj.CopyComplete
+D:\dev\git\Atlas\src\Services\Exercise\Exercises.Services.Querys\obj\Debug\netcoreapp3.1\Exercises.Services.Querys.dll
+D:\dev\git\Atlas\src\Services\Exercise\Exercises.Services.Querys\obj\Debug\netcoreapp3.1\Exercises.Services.Querys.pdb
