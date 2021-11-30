@@ -12,10 +12,10 @@ namespace Exercise.Services.EventHandler
 {
     public class MuscleEventHandler : INotificationHandler<MuscleCreateCommand>
     {
-        private readonly AtlasExerciseContext _context;
+        private readonly AtlasExercisesContext _context;
         private readonly ILogger<MuscleEventHandler> _logger;
 
-        public MuscleEventHandler(AtlasExerciseContext context, ILogger<MuscleEventHandler> logger )
+        public MuscleEventHandler(AtlasExercisesContext context, ILogger<MuscleEventHandler> logger )
         {
             _logger = logger;
             _context = context;

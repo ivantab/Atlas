@@ -12,9 +12,9 @@ namespace Exercises.Services.Querys.Querys.MuscleQuery
     public class MuscleQueryService : IMuscleQueryService
     {
 
-        public readonly AtlasExerciseContext _context;
+        public readonly AtlasExercisesContext _context;
 
-        public MuscleQueryService(AtlasExerciseContext context)
+        public MuscleQueryService(AtlasExercisesContext context)
         {
             _context = context;
         }

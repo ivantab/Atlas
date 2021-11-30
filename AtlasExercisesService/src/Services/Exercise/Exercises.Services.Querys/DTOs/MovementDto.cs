@@ -9,7 +9,6 @@ namespace Exercise.Services.Querys
     {
         public MovementDto()
         {
-            Exercises = new HashSet<ExerciseDto>();
             TrsSecondaryMusclesInMovements = new HashSet<TrsSecondaryMusclesInMovementDto>();
         }
 
@@ -22,7 +21,6 @@ namespace Exercise.Services.Querys
 
         public virtual DisciplineDto IdDisciplineNavigation { get; set; }
         public virtual MuscleDto MainMuscleNavigation { get; set; }
-        public virtual ICollection<ExerciseDto> Exercises { get; set; }
-        public virtual ICollection<TrsSecondaryMusclesInMovementDto> TrsSecondaryMusclesInMovements { get; set; }
+        public virtual ICollection<TrsSecondaryMusclesInMovementDto> TrsSecondaryMusclesInMovements { get; set; }       
     }
 }

@@ -17,8 +17,8 @@ namespace Exercise.Services.Querys
         public int Rounds { get; set; }
         public int Prpercentage { get; set; }
         public int IdMovement { get; set; }
+        public TimeSpan? RestBetweenRounds { get; set; }
 
-        public virtual MovementDto IdMovementNavigation { get; set; }
         public virtual ICollection<TrsExercisesInWorkoutDto> TrsExercisesInWorkouts { get; set; }
     }
 }

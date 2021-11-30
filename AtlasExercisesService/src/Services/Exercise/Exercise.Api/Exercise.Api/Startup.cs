@@ -34,7 +34,7 @@ namespace Exercise.Api
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {          
-            services.AddDbContext<AtlasExerciseContext>(opts => opts.UseSqlServer(Configuration.GetConnectionString("DatabaseConnection")));
+            services.AddDbContext<AtlasExercisesContext>(opts => opts.UseSqlServer(Configuration.GetConnectionString("DatabaseConnection")));
             services.AddControllers();
             //Injeccion de dependencias
             services.AddTransient<IMuscleQueryService, MuscleQueryService>();
@@ -42,7 +42,7 @@ namespace Exercise.Api
 
             //HealtChecks
             services.AddHealthChecks().AddCheck("Self", () => HealthCheckResult.Healthy()).
-                AddDbContextCheck<AtlasExerciseContext>();
+                AddDbContextCheck<AtlasExercisesContext>();
 
             //MediatR
             services.AddMediatR(Assembly.Load("Exercise.Services.EventHandler"));

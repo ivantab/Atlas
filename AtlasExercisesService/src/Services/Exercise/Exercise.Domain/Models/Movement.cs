@@ -9,7 +9,6 @@ namespace Exercise.Domain.Models
     {
         public Movement()
         {
-            Exercises = new HashSet<Exercise>();
             TrsSecondaryMusclesInMovements = new HashSet<TrsSecondaryMusclesInMovement>();
         }
 
@@ -22,7 +21,6 @@ namespace Exercise.Domain.Models
 
         public virtual Discipline IdDisciplineNavigation { get; set; }
         public virtual Muscle MainMuscleNavigation { get; set; }
-        public virtual ICollection<Exercise> Exercises { get; set; }
         public virtual ICollection<TrsSecondaryMusclesInMovement> TrsSecondaryMusclesInMovements { get; set; }
     }
 }

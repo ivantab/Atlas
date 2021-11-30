@@ -8,11 +8,11 @@ namespace Exercise.Test.Config
 {
     public static class ApplicationDbContextInMemory
     {
-        public static AtlasExerciseContext Get()
+        public static AtlasExercisesContext Get()
         {
-            var option = new DbContextOptionsBuilder<AtlasExerciseContext>().UseInMemoryDatabase(databaseName: $"Exercise.Db").Options;
+            var option = new DbContextOptionsBuilder<AtlasExercisesContext>().UseInMemoryDatabase(databaseName: $"Exercise.Db").Options;
 
-            return new AtlasExerciseContext(option);
+            return new AtlasExercisesContext(option);
         }
     }
 }

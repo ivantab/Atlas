@@ -11,9 +11,9 @@ namespace Exercises.Services.Querys.Querys.LocationQuery
 {
     public class LocationQueryService : ILocationQueryService
     {
-        public readonly AtlasExerciseContext _context;
+        public readonly AtlasExercisesContext _context;
 
-        public LocationQueryService(AtlasExerciseContext context)
+        public LocationQueryService(AtlasExercisesContext context)
         {
             _context = context;
         }

@@ -7,13 +7,13 @@ using Microsoft.EntityFrameworkCore.Metadata;
 
 namespace Exercise.DataAccess.DataBase
 {
-    public partial class AtlasExerciseContext : DbContext
+    public partial class AtlasExercisesContext : DbContext
     {
-        public AtlasExerciseContext()
+        public AtlasExercisesContext()
         {
         }
 
-        public AtlasExerciseContext(DbContextOptions<AtlasExerciseContext> options)
+        public AtlasExercisesContext(DbContextOptions<AtlasExercisesContext> options)
             : base(options)
         {
         }
@@ -32,7 +32,8 @@ namespace Exercise.DataAccess.DataBase
         {
             if (!optionsBuilder.IsConfigured)
             {
-               // optionsBuilder.UseSqlServer("Data Source=DESKTOP-B5D1Q8K;Initial Catalog=AtlasExercise;Trusted_Connection=True;");
+#warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see http://go.microsoft.com/fwlink/?LinkId=723263.
+                optionsBuilder.UseSqlServer("Server=DESKTOP-B5D1Q8K;Database=AtlasExercises;Persist Security Info=True;User ID=Admin;Password=admin;MultipleActiveResultSets=True;");
             }
         }
 
@@ -76,11 +77,7 @@ namespace Exercise.DataAccess.DataBase
 
                 entity.Property(e => e.Prpercentage).HasColumnName("PRPercentage");
 
-                entity.HasOne(d => d.IdMovementNavigation)
-                    .WithMany(p => p.Exercises)
-                    .HasForeignKey(d => d.IdMovement)
-                    .OnDelete(DeleteBehavior.ClientSetNull)
-                    .HasConstraintName("FK_Exercise_Movement");
+                entity.Property(e => e.RestBetweenRounds).HasColumnType("time(0)");
             });
 
             modelBuilder.Entity<Location>(entity =>

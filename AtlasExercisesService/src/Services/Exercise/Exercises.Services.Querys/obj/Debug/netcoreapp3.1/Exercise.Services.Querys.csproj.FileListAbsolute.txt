@@ -26,3 +26,17 @@ D:\dev\AtlasRepository\Atlas\src\Services\Exercise\Exercises.Services.Querys\obj
 D:\dev\AtlasRepository\Atlas\src\Services\Exercise\Exercises.Services.Querys\obj\Debug\netcoreapp3.1\Exercise.Services.Querys.csproj.CopyComplete
 D:\dev\AtlasRepository\Atlas\src\Services\Exercise\Exercises.Services.Querys\obj\Debug\netcoreapp3.1\Exercise.Services.Querys.dll
 D:\dev\AtlasRepository\Atlas\src\Services\Exercise\Exercises.Services.Querys\obj\Debug\netcoreapp3.1\Exercise.Services.Querys.pdb
+D:\dev\AtlasRepository\AtlasExercisesService\src\Services\Exercise\Exercises.Services.Querys\bin\Debug\netcoreapp3.1\Exercise.Services.Querys.deps.json
+D:\dev\AtlasRepository\AtlasExercisesService\src\Services\Exercise\Exercises.Services.Querys\bin\Debug\netcoreapp3.1\Exercise.Services.Querys.dll
+D:\dev\AtlasRepository\AtlasExercisesService\src\Services\Exercise\Exercises.Services.Querys\bin\Debug\netcoreapp3.1\Exercise.Services.Querys.pdb
+D:\dev\AtlasRepository\AtlasExercisesService\src\Services\Exercise\Exercises.Services.Querys\bin\Debug\netcoreapp3.1\Exercise.DataAccess.DataBase.dll
+D:\dev\AtlasRepository\AtlasExercisesService\src\Services\Exercise\Exercises.Services.Querys\bin\Debug\netcoreapp3.1\Exercise.Domain.dll
+D:\dev\AtlasRepository\AtlasExercisesService\src\Services\Exercise\Exercises.Services.Querys\bin\Debug\netcoreapp3.1\Exercise.DataAccess.DataBase.pdb
+D:\dev\AtlasRepository\AtlasExercisesService\src\Services\Exercise\Exercises.Services.Querys\bin\Debug\netcoreapp3.1\Exercise.Domain.pdb
+D:\dev\AtlasRepository\AtlasExercisesService\src\Services\Exercise\Exercises.Services.Querys\obj\Debug\netcoreapp3.1\Exercise.Services.Querys.csprojAssemblyReference.cache
+D:\dev\AtlasRepository\AtlasExercisesService\src\Services\Exercise\Exercises.Services.Querys\obj\Debug\netcoreapp3.1\Exercise.Services.Querys.AssemblyInfoInputs.cache
+D:\dev\AtlasRepository\AtlasExercisesService\src\Services\Exercise\Exercises.Services.Querys\obj\Debug\netcoreapp3.1\Exercise.Services.Querys.AssemblyInfo.cs
+D:\dev\AtlasRepository\AtlasExercisesService\src\Services\Exercise\Exercises.Services.Querys\obj\Debug\netcoreapp3.1\Exercise.Services.Querys.csproj.CoreCompileInputs.cache
+D:\dev\AtlasRepository\AtlasExercisesService\src\Services\Exercise\Exercises.Services.Querys\obj\Debug\netcoreapp3.1\Exercise.Services.Querys.csproj.CopyComplete
+D:\dev\AtlasRepository\AtlasExercisesService\src\Services\Exercise\Exercises.Services.Querys\obj\Debug\netcoreapp3.1\Exercise.Services.Querys.dll
+D:\dev\AtlasRepository\AtlasExercisesService\src\Services\Exercise\Exercises.Services.Querys\obj\Debug\netcoreapp3.1\Exercise.Services.Querys.pdb

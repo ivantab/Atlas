@@ -15,10 +15,10 @@ namespace Exercise.Services.EventHandler
 {
     public class LocationEventHandler : INotificationHandler<LocationCreateCommand> , INotificationHandler<LocationUpdatedCommand>
     {
-        private readonly AtlasExerciseContext _context;
+        private readonly AtlasExercisesContext _context;
         private readonly ILogger _logger;
 
-        public LocationEventHandler(AtlasExerciseContext context,ILogger<LocationEventHandler> logger)
+        public LocationEventHandler(AtlasExercisesContext context,ILogger<LocationEventHandler> logger)
         {
             _logger = logger;
             _context = context;
