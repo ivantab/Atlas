@@ -11,19 +11,19 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.Api", "1.Api", "{331C5BB7
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.Services", "2.Services", "{AA7CF9E3-788A-4C0B-B459-9E7FDC863751}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.DataAcces", "3.DataAcces", "{4287CFD4-DA7E-47E6-A13A-8EFBCE254B40}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.DataAccess", "3.DataAccess", "{4287CFD4-DA7E-47E6-A13A-8EFBCE254B40}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.Models", "4.Models", "{BBE1D75C-2287-4B2E-9C44-9F4B6A506E5D}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercise.DataAccess.DataBase", "src\Services\Exercise\Exercise.DataAcces.DataBase\Exercise.DataAccess.DataBase.csproj", "{CA2BC74E-200D-40ED-9E47-982074C6C615}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercise.DataAccess.DataBase", "src\Services\Exercise.DataAcces.DataBase\Exercise.DataAccess.DataBase.csproj", "{CA2BC74E-200D-40ED-9E47-982074C6C615}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercise.Domain", "src\Services\Exercise\Exercise.Domain\Exercise.Domain.csproj", "{49D2E0C0-65BC-4108-AB98-26B3C739325E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercise.Domain", "src\Services\Exercise.Domain\Exercise.Domain.csproj", "{49D2E0C0-65BC-4108-AB98-26B3C739325E}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercise.Api", "src\Services\Exercise\Exercise.Api\Exercise.Api\Exercise.Api.csproj", "{F78BEE41-7940-4FD7-8CB5-A08D663997DA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercise.Api", "src\Services\Exercise.Api\Exercise.Api\Exercise.Api.csproj", "{F78BEE41-7940-4FD7-8CB5-A08D663997DA}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercise.Services.Querys", "src\Services\Exercise\Exercises.Services.Querys\Exercise.Services.Querys.csproj", "{B17AF695-BDE3-40B0-AB13-103004025F41}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercise.Services.Querys", "src\Services\Exercises.Services.Querys\Exercise.Services.Querys.csproj", "{B17AF695-BDE3-40B0-AB13-103004025F41}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercise.Services.EventHandler", "src\Services\Exercise\Exercise.Services.EventHandler\Exercise.Services.EventHandler.csproj", "{400ABD1A-8FF6-4F7A-904B-EB19D3697A18}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercise.Services.EventHandler", "src\Services\Exercise.Services.EventHandler\Exercise.Services.EventHandler.csproj", "{400ABD1A-8FF6-4F7A-904B-EB19D3697A18}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Common.Services.Enumerations", "src\Common\Common.Services.Enumeration\Common.Services.Enumerations.csproj", "{261D6003-708B-4D3A-8FE7-3499B6C9B7DE}"
 EndProject
@@ -33,7 +33,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Common.Services.Loggin", "s
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5.Testing", "5.Testing", "{2FB30FCF-1781-4DBD-80D2-C2485A294018}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercise.Test", "src\Services\Exercise\Exercise.Test\Exercise.Test.csproj", "{ECA58562-5BDD-402B-BADA-413C0F05443A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercise.Test", "src\Services\Exercise.Test\Exercise.Test.csproj", "{ECA58562-5BDD-402B-BADA-413C0F05443A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

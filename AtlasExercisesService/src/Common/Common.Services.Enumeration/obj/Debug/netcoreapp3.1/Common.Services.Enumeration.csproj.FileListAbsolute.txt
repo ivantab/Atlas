@@ -1,9 +1,0 @@
-D:\dev\git\Atlas\src\Common\Common.Services.Enumeration\bin\Debug\netcoreapp3.1\Common.Services.Enumeration.deps.json
-D:\dev\git\Atlas\src\Common\Common.Services.Enumeration\bin\Debug\netcoreapp3.1\Common.Services.Enumeration.dll
-D:\dev\git\Atlas\src\Common\Common.Services.Enumeration\bin\Debug\netcoreapp3.1\Common.Services.Enumeration.pdb
-D:\dev\git\Atlas\src\Common\Common.Services.Enumeration\obj\Debug\netcoreapp3.1\Common.Services.Enumeration.csprojAssemblyReference.cache
-D:\dev\git\Atlas\src\Common\Common.Services.Enumeration\obj\Debug\netcoreapp3.1\Common.Services.Enumeration.AssemblyInfoInputs.cache
-D:\dev\git\Atlas\src\Common\Common.Services.Enumeration\obj\Debug\netcoreapp3.1\Common.Services.Enumeration.AssemblyInfo.cs
-D:\dev\git\Atlas\src\Common\Common.Services.Enumeration\obj\Debug\netcoreapp3.1\Common.Services.Enumeration.csproj.CoreCompileInputs.cache
-D:\dev\git\Atlas\src\Common\Common.Services.Enumeration\obj\Debug\netcoreapp3.1\Common.Services.Enumeration.dll
-D:\dev\git\Atlas\src\Common\Common.Services.Enumeration\obj\Debug\netcoreapp3.1\Common.Services.Enumeration.pdb
