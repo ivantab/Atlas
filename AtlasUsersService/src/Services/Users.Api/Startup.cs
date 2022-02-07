@@ -9,6 +9,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Users.Services.Proxies;
 
 namespace Users.Api
 {
@@ -25,6 +26,8 @@ namespace Users.Api
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
+            services.Configure<ApiUrls>(opt => Configuration.GetSection("ApiUrls").Bind(opt));
+            services.Configure<EndpointsNames>(opt => Configuration.GetSection("EndpointsNames").Bind(opt));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

@@ -15,6 +15,7 @@
   <ItemGroup>
     <ProjectReference Include="..\Users.Service.Query\Users.Services.Query.csproj" />
     <ProjectReference Include="..\Users.Services.EventHandler\Users.Services.EventHandler.csproj" />
+    <ProjectReference Include="..\Users.services.Proxies\Users.Services.Proxies.csproj" />
   </ItemGroup>
 
   <ProjectExtensions><VisualStudio><UserProperties properties_4launchsettings_1json__JsonSchema="" /></VisualStudio></ProjectExtensions>

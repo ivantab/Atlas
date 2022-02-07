@@ -23,7 +23,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Users.Services.Query", "src
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Users.Services.EventHandler", "src\Services\Users.Services.EventHandler\Users.Services.EventHandler.csproj", "{5B87FB9E-86B9-4C45-8D47-4723C5388DB4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Users.services.Proxies", "src\Services\Users.services.Proxies\Users.services.Proxies.csproj", "{6667575F-769B-4BA5-B81F-F12EAFA705C3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Users.Services.Proxies", "src\Services\Users.services.Proxies\Users.Services.Proxies.csproj", "{6667575F-769B-4BA5-B81F-F12EAFA705C3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
