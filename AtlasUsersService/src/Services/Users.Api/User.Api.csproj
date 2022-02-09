@@ -18,7 +18,13 @@
     <ProjectReference Include="..\Users.services.Proxies\Users.Services.Proxies.csproj" />
   </ItemGroup>
 
-  <ProjectExtensions><VisualStudio><UserProperties properties_4launchsettings_1json__JsonSchema="" /></VisualStudio></ProjectExtensions>
+  <ItemGroup>
+    <Reference Include="Exercise.DataAccess.DataBase">
+      <HintPath>..\..\..\..\AtlasExercisesService\src\Services\Exercise.Services.EventHandler\bin\Debug\netcoreapp3.1\Exercise.DataAccess.DataBase.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <ProjectExtensions><VisualStudio><UserProperties appsettings_1json__JsonSchema="" properties_4launchsettings_1json__JsonSchema="" /></VisualStudio></ProjectExtensions>
 
 
 </Project>

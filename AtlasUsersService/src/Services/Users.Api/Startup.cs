@@ -9,7 +9,10 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using User.DataAccess.DataBase;
 using Users.Services.Proxies;
+using Users.Services.Query.Querys.User;
+using Microsoft.EntityFrameworkCore;
 
 namespace Users.Api
 {
@@ -25,7 +28,9 @@ namespace Users.Api
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddDbContext<AtlasUsersContext>(opts => opts.UseSqlServer(Configuration.GetConnectionString("DatabaseConnection")));
             services.AddControllers();
+            services.AddTransient<IUserQueryService, UserQueryService>();
             services.Configure<ApiUrls>(opt => Configuration.GetSection("ApiUrls").Bind(opt));
             services.Configure<EndpointsNames>(opt => Configuration.GetSection("EndpointsNames").Bind(opt));
         }

@@ -16,18 +16,19 @@ namespace Users.services.Proxies
         private readonly HttpClient _httpClient;
         private readonly EndpointsNames _endpoinstnames;
 
-        public ExerciseProxie(IOptions<ApiUrls> apiurls , HttpClient httpclient,IOptions<EndpointsNames> endpointsnames)
+        public ExerciseProxie(IOptions<ApiUrls> apiurls, HttpClient httpclient, IOptions<EndpointsNames> endpointsnames)
         {
             _apiUrls = apiurls.Value;
             _httpClient = httpclient;
-            _endpoinstnames = endpointsnames
+            _endpoinstnames = (EndpointsNames)endpointsnames;
 
         }
 
         public async Task<WorkoutDto> GetWorkOutAsync(int id)
         {
-            var request = await _httpClient.GetAsync(_apiUrls.ExerciseUrl + _endpoinstnames.exerciseUrl.WorkOut + id);
+            var request = await _httpClient.GetAsync(_apiUrls.ExerciseUrl + _endpoinstnames.ExerciseUrl.WorkOut + id);
             request.EnsureSuccessStatusCode();
+            return new WorkoutDto();
         }
     }
 }

@@ -8,7 +8,7 @@ using Users.Services.Query.Dtos;
 
 namespace Users.Services.Query.Querys.User
 {
-    public class UserQueryService
+    public class UserQueryService : IUserQueryService
     {
         private AtlasUsersContext _context;
         public UserQueryService(AtlasUsersContext context)
@@ -46,6 +46,7 @@ namespace Users.Services.Query.Querys.User
 
             return result;
         }
+
 
 
     }

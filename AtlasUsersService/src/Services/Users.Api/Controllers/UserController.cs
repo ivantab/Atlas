@@ -15,10 +15,10 @@ namespace User.Api.Controllers
     [ApiController]
     public class UserController : ControllerBase
     {
-        private readonly ILogger _logger;
+        private readonly ILogger<UserController> _logger;
         private readonly IUserQueryService _userQueryService;
 
-        public UserController(ILogger logger, IUserQueryService userQueryService)
+        public UserController(ILogger<UserController> logger, IUserQueryService userQueryService)
         {
             _logger = logger;
             _userQueryService = userQueryService;
@@ -26,6 +26,7 @@ namespace User.Api.Controllers
         }
 
         [HttpGet("{id}")]
+        [Route("GetAsync")]
         public async Task<ActionResult<UserDto>> GetAsync(int id)
         {
             Task<UserDto> result;
@@ -45,7 +46,8 @@ namespace User.Api.Controllers
         }
 
         [HttpGet("{id}")]
-        public async Task<ActionResult<UserDto>> GetWorkoutSubscribedByUser(int id)
+        [Route("GetWorkoutSubscribedByUserId")]
+        public async Task<ActionResult<UserDto>> GetWorkoutSubscribedByUserId(int id)
         {
             Task<UserDto> result;
             try

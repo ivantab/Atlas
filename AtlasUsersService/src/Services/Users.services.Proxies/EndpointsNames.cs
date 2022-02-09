@@ -6,10 +6,10 @@ namespace Users.Services.Proxies
 {
     public class EndpointsNames
     {
-        public ExerciseUrl exerciseUrl { get; set; }
+        public WorkOutUrl ExerciseUrl { get; set; }
     }
 
-    public class ExerciseUrl
+    public class WorkOutUrl
     {
         public string WorkOut { get; set; }
     }
