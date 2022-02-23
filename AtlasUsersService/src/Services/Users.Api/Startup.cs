@@ -13,6 +13,7 @@ using User.DataAccess.DataBase;
 using Users.Services.Proxies;
 using Users.Services.Query.Querys.User;
 using Microsoft.EntityFrameworkCore;
+using Users.Services.Proxies.Exercises;
 
 namespace Users.Api
 {
@@ -31,6 +32,8 @@ namespace Users.Api
             services.AddDbContext<AtlasUsersContext>(opts => opts.UseSqlServer(Configuration.GetConnectionString("DatabaseConnection")));
             services.AddControllers();
             services.AddTransient<IUserQueryService, UserQueryService>();
+            services.AddHttpClient<IExerciseProxie, ExerciseProxie>();
+           // services.AddTransient<IExerciseProxie, ExerciseProxie>(); 
             services.Configure<ApiUrls>(opt => Configuration.GetSection("ApiUrls").Bind(opt));
             services.Configure<EndpointsNames>(opt => Configuration.GetSection("EndpointsNames").Bind(opt));
         }

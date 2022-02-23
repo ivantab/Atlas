@@ -4,15 +4,18 @@ using System.Collections.Generic;
 using System.Text;
 using System.Threading.Tasks;
 using User.DataAccess.DataBase;
+using Users.Services.Proxies.Exercises;
 using Users.Services.Query.Dtos;
 
 namespace Users.Services.Query.Querys.User
 {
     public class UserQueryService : IUserQueryService
     {
-        private AtlasUsersContext _context;
-        public UserQueryService(AtlasUsersContext context)
+        private readonly AtlasUsersContext _context;
+        private readonly IExerciseProxie _exerciseProxie;
+        public UserQueryService(AtlasUsersContext context, IExerciseProxie exerciseProxie )
         {
+            _exerciseProxie = exerciseProxie;
             _context = context;
         }
         public async Task<UserDto> GetAsync(int Id)
@@ -47,6 +50,15 @@ namespace Users.Services.Query.Querys.User
             return result;
         }
 
+        public async Task<WorkoutDto> GetWorkoutSubscribedByUserId(int Id)
+        {
+            WorkoutDto result = new WorkoutDto();
+
+            var data = await _exerciseProxie.GetWorkOutAsync(Id);
+            
+
+            return result;
+        }
 
 
     }

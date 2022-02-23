@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Users.services.Proxies.Exercises.Dtos
+namespace Users.Services.Query.Dtos
 {
     public class ExerciseDto
     {

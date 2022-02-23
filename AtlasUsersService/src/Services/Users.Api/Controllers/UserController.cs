@@ -4,6 +4,8 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Users.Services.Proxies.Exercises.Dtos;
+using Users.Services.Proxies.Exercises;
 using Users.Services.Query.Dtos;
 using Users.Services.Query.Querys.User;
 
@@ -25,8 +27,8 @@ namespace User.Api.Controllers
 
         }
 
-        [HttpGet("{id}")]
-        [Route("GetAsync")]
+        //[HttpGet("{id}")]
+        [Route("GetAsync/{id?}")]
         public async Task<ActionResult<UserDto>> GetAsync(int id)
         {
             Task<UserDto> result;
@@ -45,14 +47,14 @@ namespace User.Api.Controllers
             return await result;
         }
 
-        [HttpGet("{id}")]
-        [Route("GetWorkoutSubscribedByUserId")]
-        public async Task<ActionResult<UserDto>> GetWorkoutSubscribedByUserId(int id)
+        //[HttpGet("{id}")]
+        [Route("GetWorkoutSubscribedByUserId/{id?}")]
+        public async Task<ActionResult<WorkoutDto>> GetWorkoutSubscribedByUserId(int id)
         {
-            Task<UserDto> result;
+            Task<WorkoutDto> result;
             try
             {
-                result = _userQueryService.GetAsync(id);
+                result = _userQueryService.GetWorkoutSubscribedByUserId(id);
                 if (result.Result == null)
                 {
                     return NotFound();

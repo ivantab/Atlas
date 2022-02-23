@@ -9,5 +9,6 @@ namespace Users.Services.Query.Querys.User
     public interface IUserQueryService
     {
         Task<UserDto> GetAsync(int Id);
+        Task<WorkoutDto> GetWorkoutSubscribedByUserId(int Id);
     }
 }

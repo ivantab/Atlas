@@ -2,18 +2,18 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Users.services.Proxies.Exercises.Dtos
+namespace Users.Services.Proxies.Exercises.Dtos
 {
-    public class WorkoutDto
+    public class WorkoutProxyDto
     {
-        public WorkoutDto()
+        public WorkoutProxyDto()
         {
         }
 
         public int IdWorkout { get; set; }
         public string Name { get; set; }
         public DateTime CreationDate { get; set; }
-        public List<ExerciseDto> ExerciseDto { get; set; }
+        public List<ExerciseProxyDto> ExerciseDto { get; set; }
     }
 }
 

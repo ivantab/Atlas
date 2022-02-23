@@ -1,8 +1,8 @@
-﻿namespace Users.services.Proxies.Exercises.Dtos
+﻿namespace Users.Services.Proxies.Exercises.Dtos
 {
-    public class DisciplineDto
+    public class DisciplineProxyDto
     {
-        public DisciplineDto()
+        public DisciplineProxyDto()
         {
         }
 

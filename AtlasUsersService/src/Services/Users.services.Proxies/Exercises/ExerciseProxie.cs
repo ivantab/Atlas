@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Threading.Tasks;
-using Users.services.Proxies.Exercises.Dtos;
+using Users.Services.Proxies.Exercises.Dtos;
 using Users.Services.Proxies;
 using Microsoft.Extensions.Options;
 using Users.Services.Proxies.Exercises;
@@ -8,7 +8,7 @@ using System.Net.Http;
 using System.Text.Json;
 using System.Text;
 
-namespace Users.services.Proxies
+namespace Users.Services.Proxies.Exercises
 {
     public class ExerciseProxie : IExerciseProxie
     {
@@ -20,15 +20,24 @@ namespace Users.services.Proxies
         {
             _apiUrls = apiurls.Value;
             _httpClient = httpclient;
-            _endpoinstnames = (EndpointsNames)endpointsnames;
+            _endpoinstnames = endpointsnames.Value;
 
         }
 
-        public async Task<WorkoutDto> GetWorkOutAsync(int id)
+        public async Task<WorkoutProxyDto> GetWorkOutAsync(int id)
         {
-            var request = await _httpClient.GetAsync(_apiUrls.ExerciseUrl + _endpoinstnames.ExerciseUrl.WorkOut + id);
-            request.EnsureSuccessStatusCode();
-            return new WorkoutDto();
+            try
+            {
+                var response = await _httpClient.GetAsync(_apiUrls.ExerciseUrl + _endpoinstnames.ExerciseUrl.WorkOut + id);
+                response.EnsureSuccessStatusCode();
+                var contentResposne = await response.Content.ReadAsStringAsync();
+                var Workout = JsonSerializer.Deserialize<WorkoutProxyDto>(contentResposne,new JsonSerializerOptions() { PropertyNameCaseInsensitive = true});
+            }
+            catch(HttpRequestException ex)
+            {
+
+            }                  
+            return new WorkoutProxyDto();
         }
     }
 }
