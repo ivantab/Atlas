@@ -19,8 +19,8 @@ namespace Users.Services.Proxies.Exercises
         public ExerciseProxie(IOptions<ApiUrls> apiurls, HttpClient httpclient, IOptions<EndpointsNames> endpointsnames)
         {
             _apiUrls = apiurls.Value;
-            _httpClient = httpclient;
             _endpoinstnames = endpointsnames.Value;
+            _httpClient = httpclient;       
 
         }
 

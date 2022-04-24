@@ -1,4 +1,4 @@
-using Exercise.Services.EventHandler;
+using Exercise.Services.EventHandler.Handlers;
 using Exercise.Services.EventHandler.Commands;
 using Exercise.Services.EventHandler.Exceptions;
 using Exercise.Test.Config;

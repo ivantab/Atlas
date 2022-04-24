@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Exercise.Services.EventHandler
+namespace Exercise.Services.EventHandler.Handlers
 {
     public class MuscleEventHandler : INotificationHandler<MuscleCreateCommand>
     {

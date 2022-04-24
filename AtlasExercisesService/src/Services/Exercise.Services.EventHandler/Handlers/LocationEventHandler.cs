@@ -11,7 +11,7 @@ using Microsoft.EntityFrameworkCore;
 using Common.Services.Loggin;
 using Exercise.Services.EventHandler.Exceptions;
 
-namespace Exercise.Services.EventHandler
+namespace Exercise.Services.EventHandler.Handlers
 {
     public class LocationEventHandler : INotificationHandler<LocationCreateCommand> , INotificationHandler<LocationUpdatedCommand>
     {
@@ -49,19 +49,25 @@ namespace Exercise.Services.EventHandler
             try
             {
                 _logger.LogInformation(command.GetType().ToString() + LogEnums.LogEnum.Started.ToString());
-                var data = _context.Locations.SingleOrDefaultAsync(x => x.LocationId == command.LocationId);
-                if (data != null && data.Result != null)
+                using (var trx = await _context.Database.BeginTransactionAsync())
                 {
-                    data.Result.Ubication = command.Ubication;
-                    data.Result.Description = command.Description;
-                    await _context.SaveChangesAsync();
-                    _logger.LogInformation(command.GetType().ToString() + LogEnums.LogEnum.Ended.ToString());
+                    var data = _context.Locations.SingleOrDefaultAsync(x => x.LocationId == command.LocationId);
+                    if (data != null && data.Result != null)
+                    {
+                        data.Result.Ubication = command.Ubication;
+                        data.Result.Description = command.Description;
+                        await _context.SaveChangesAsync();
+                        _logger.LogInformation(command.GetType().ToString() + LogEnums.LogEnum.Ended.ToString());
+                    }
+                    else
+                    {
+                        _logger.LogError(command.GetType().ToString() + LogEnums.LogEnum.Error.ToString());
+                        throw new LocationUpdatedCommandException("No se encontro Location con el  id : " + command.LocationId);
+                    }
+
+                    await trx.CommitAsync();
                 }
-                else
-                {
-                    _logger.LogError(command.GetType().ToString() + LogEnums.LogEnum.Error.ToString());
-                    throw new LocationUpdatedCommandException("No se encontro Location con el  id : " + command.LocationId);
-                }               
+                            
             }
             catch (Exception ex)
             {
